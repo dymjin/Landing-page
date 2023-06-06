@@ -16,17 +16,31 @@ body {
     display: flex;
     justify-content: center;
     flex: 1;
-    
 }
 
 .hero {
     width: 1200px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.bottom {
+    display: flex;
+    margin: 100px 0;
 }
 
 .left,
 .right {
     display: flex;
+    flex: 1;
     flex-direction: column;
 }
 
@@ -43,6 +57,13 @@ body {
 .header-list {
     display: flex;
     gap: 16px;
+}
+
+.hero-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    align-content: flex-start;
 }
 
 .hero-title {
@@ -65,8 +86,9 @@ button {
 }
 
 .right>img {
-    width: 400px;
-    height: 200px;
+    display: flex;
+    width: 600px;
+    height: 220px;
     background-color: grey;
 }
 
