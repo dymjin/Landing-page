@@ -86,10 +86,12 @@ body {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    margin: 50px 0;
 }
 
 .information-container {
     flex: 1;
+    margin-bottom: 120px;
 }
 
 .information-list-container {
@@ -100,19 +102,24 @@ body {
 .information-list {
     display: flex;
     flex-direction: row;
+    gap: 60px;
+
 }
 
 .information-list>li>img {
     display: flex;
     width: 150px;
     height: 150px;
-    border: 3px solid #3882F6;
+    border: 4px solid #3882F6;
     border-radius: 12px;
     color: white;
+    margin-bottom: 5px;
 
 }
 .information-list>li {
     width: 150px;
+    text-align: center;
+    color: #424c5a;
 }
 
 .quote-container {
