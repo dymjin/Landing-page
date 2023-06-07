@@ -11,7 +11,7 @@ body {
     flex-direction: column;
 }
 
-.hero-container {
+.hero-section {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
@@ -81,17 +81,17 @@ body {
     background-color: grey;
 }
 
+.information-section {
+    flex: 1;
+    margin-bottom: 120px;
+}
+
 .information-header {
     text-align: center;
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
     margin: 50px 0;
-}
-
-.information-container {
-    flex: 1;
-    margin-bottom: 120px;
 }
 
 .information-list-container {
@@ -123,7 +123,7 @@ body {
     color: #424c5a;
 }
 
-.quote-container {
+.quote-section {
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
@@ -149,8 +149,36 @@ body {
     text-align: end;
 }
 
-.sign-up-container {
+.sign-up-section {
+    display: flex;
+    justify-content: center;
     flex: 1;
+    margin: 100px;
+}
+
+.sign-up-modal {
+    display: flex;
+    gap: 80px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    align-items: center;
+    padding: 40px 120px;
+
+}
+
+.sign-up-text {
+    color: #E5E7EB;
+}
+
+.sign-up-title {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sign-up-modal>button {
+    border: 2px solid white;
+    
 }
 
 .footer {
