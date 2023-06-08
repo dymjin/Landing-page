@@ -107,24 +107,22 @@ body {
 
 .information-list {
     display: flex;
-    flex-direction: row;
-    gap: 60px;
-
+    align-items: baseline;
+    gap: 80px;
 }
 
 .information-list>li>img {
     display: flex;
-    width: 150px;
-    height: 150px;
-    border: 4px solid #3882F6;
+    width: 250px;
+    height: auto;
+    border: 3px solid #3882F6;
     border-radius: 12px;
     color: white;
     margin-bottom: 5px;
-
 }
 
 .information-list>li {
-    width: 150px;
+    width: 250px;
     text-align: center;
     color: #424c5a;
 }
