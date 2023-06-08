@@ -56,13 +56,12 @@ body {
 
 .header-list {
     display: flex;
-    gap: 16px;
+    gap: 30px;
 }
 
 .hero-wrapper {
     display: flex;
     flex-wrap: wrap;
-    width: 450px;
     align-content: flex-start;
 }
 
@@ -75,7 +74,7 @@ body {
 .hero-subtext {
     font-size: 18px;
     color: #E5E7EB;
-    margin-bottom: 5px;
+    margin-bottom: 40px;
 }
 
 .right>img {
@@ -107,7 +106,7 @@ body {
 
 .information-list {
     display: flex;
-    align-items: baseline;
+    align-items: start;
     gap: 80px;
 }
 
@@ -180,7 +179,7 @@ body {
     font-weight: 500;
 }
 
-.sign-up-modal>button {
+.sign-up-modal>a>button {
     border: 2px solid white;
 
 }
