@@ -48,6 +48,10 @@ body {
     font-size: 24px;
     font-weight: 900;
     color: #F9FAF8;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    padding: 5px;
 }
 
 .header-list {
@@ -76,9 +80,11 @@ body {
 
 .right>img {
     display: flex;
-    width: 600px;
-    height: 220px;
+    width: 700px;
+    height: auto;
     background-color: grey;
+    border: 2px solid white;
+    border-radius: 15px;
 }
 
 .information-section {
@@ -178,7 +184,7 @@ body {
 
 .sign-up-modal>button {
     border: 2px solid white;
-    
+
 }
 
 .footer {
